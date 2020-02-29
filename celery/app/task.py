@@ -306,6 +306,7 @@ class Task(object):
 
     from_config = (
         ('serializer', 'task_serializer'),
+        ('compression', 'task_compression'),
         ('rate_limit', 'task_default_rate_limit'),
         ('priority', 'task_default_priority'),
         ('track_started', 'task_track_started'),
